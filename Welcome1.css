@@ -11,7 +11,7 @@ body
 {
     border-radius: 32px;
     box-shadow: 1px 1px 11px rgba(0,0,0,0.2);
-    background-color: white;
+    background-color: black;
     display: flex;
     margin: 0 auto; 
     width: 97%;
@@ -163,19 +163,19 @@ h1{
 #border-1{
     width: 190px;
     height: 5px;
-    background:orangered;
+    background:black;
     margin: 3px auto;
 }
 #border-2{
     width: 200px;
     height: 5px;
-    background:orangered;
+    background:black;
     margin: 3px auto;
 }
 #border-3{
     width: 230px;
     height: 5px;
-    background: orangered;
+    background: black;
     margin: 3px auto;
 }
 .section-img{
@@ -217,25 +217,26 @@ h1{
         padding:3px;
     }
     .container-home{
-        height: 250px;
+        height: 300px;
     }
     .content h4{
         font-size: 1rem;
         letter-spacing: 0px;
     }
     .content p{
-        font-size: 16px;
+        font-size: 32px;
     }
     .btn{
         padding:3px;
+        margin :15px;
     }
     .box{
         padding: 4px;
-        margin:3px;
+        margin:7px;
     }
     .section-img{
         width: 250px;
-        height: 250px;
+        height: 150px;
         align-item:100%;
     }
 }
